@@ -1,0 +1,100 @@
+.sidebar {
+  display: flex;
+  flex: 0.3;
+  height: 100vh;
+  background-color: #313339;
+  .sidebarLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #1e1f22;
+    padding: 7px 5px;
+    .serverIcon {
+      width: 60px;
+      height: 60px;
+      background-color: #313339;
+      border-radius: 9999px;
+      margin-bottom: 10px;
+      position: relative;
+      margin-top: 7px;
+      img {
+        position: absolute;
+        width: 50px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  .sidebarRight {
+    background-color: #2b2d31;
+    width: 300px;
+    position: relative;
+    flex-grow: 1;
+
+    .sidebarTop {
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 20px 10px;
+    }
+    .sidebarChannels {
+      padding: 13px;
+      .sidebarChannelsHeader {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .sidebarHeader {
+          display: flex;
+          h4 {
+            margin: 0; // マージンをリセット
+            padding-top: 2.7px; // パディングをリセット
+            line-height: 1.2; // 行の高さを設定
+            font-size: 16px; // フォントサイズを設定
+          }
+        }
+        .sidebarAddIcon {
+          cursor: pointer;
+        }
+      }
+    }
+    .sidebarFooter {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 93%;
+      padding-bottom: 10px;
+      border-top: 1px solid #747474;
+      padding-top: 10px;
+      margin-left: -3px;
+      .sidebarAccount {
+        display: flex;
+        align-items: center;
+        img {
+          width: 60px;
+        }
+        .accountName {
+          margin-left: 5px;
+          margin-right: 60px;
+          h4 {
+            color: #ffffff;
+            font-weight: 500;
+            padding-bottom: 0;
+            margin: 0;
+          }
+          span {
+            color: #686a6e;
+          }
+        }
+        .sidebarVoice {
+          color: #686a6e;
+        }
+      }
+    }
+  }
+}
