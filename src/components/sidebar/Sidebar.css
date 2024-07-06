@@ -1,0 +1,99 @@
+.sidebar {
+  display: flex;
+  flex: 0.3;
+  height: 100vh;
+  background-color: #313339;
+}
+.sidebar .sidebarLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e1f22;
+  padding: 7px 5px;
+}
+.sidebar .sidebarLeft .serverIcon {
+  width: 60px;
+  height: 60px;
+  background-color: #313339;
+  border-radius: 9999px;
+  margin-bottom: 10px;
+  position: relative;
+  margin-top: 7px;
+}
+.sidebar .sidebarLeft .serverIcon img {
+  position: absolute;
+  width: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sidebar .sidebarRight {
+  background-color: #2b2d31;
+  width: 300px;
+  position: relative;
+  flex-grow: 1;
+}
+.sidebar .sidebarRight .sidebarTop {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 10px;
+}
+.sidebar .sidebarRight .sidebarChannels {
+  padding: 13px;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader .sidebarHeader {
+  display: flex;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader .sidebarHeader h4 {
+  margin: 0;
+  padding-top: 2.7px;
+  line-height: 1.2;
+  font-size: 16px;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader .sidebarAddIcon {
+  cursor: pointer;
+}
+.sidebar .sidebarRight .sidebarFooter {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 93%;
+  padding-bottom: 10px;
+  border-top: 1px solid #747474;
+  padding-top: 10px;
+  margin-left: -3px;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount {
+  display: flex;
+  align-items: center;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount img {
+  width: 60px;
+  border-radius: 50%;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount .accountName {
+  margin-left: 5px;
+  margin-right: 60px;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount .accountName h4 {
+  color: #ffffff;
+  font-weight: 500;
+  padding-bottom: 0;
+  margin: 0;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount .accountName span {
+  color: #686a6e;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount .sidebarVoice {
+  color: #686a6e;
+}/*# sourceMappingURL=Sidebar.css.map */
