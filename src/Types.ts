@@ -4,5 +4,11 @@ export interface initialUserState {
     photo: string;
     email: string;
     displayName: string;
+    channelName: string;
   };
+}
+
+export interface InitialChannelState {
+  channelId: string | null;
+  channelName: string | null;
 }
